@@ -1,48 +1,46 @@
 <template>
-    <section class="nav">
-        <div class="nav-logo">
-            <img src="https://image.freepik.com/free-vector/abstract-logo-flame-shape_1043-44.jpg" alt="logo" height="200px">
-        </div>
-        <div class="nav-menu">
-            <ul class="nav-menu-list">
-                <li class="nav-list-item">About Me</li>
-                <li class="nav-list-item">GitHub</li>
-            </ul>
-        </div>
-    </section>
+  <section class="nav">
+    <div class="nav-logo">
+      <img height="200px" src="https://image.freepik.com/free-vector/abstract-logo-flame-shape_1043-44.jpg" alt="logo">
+    </div>
+    <div class="nav-menu">
+      <ul class="nav-menu-list">
+        <li class="nav-list-item">About Me</li>
+        <li class="nav-list-item">GitHub</li>
+      </ul>
+    </div>
+  </section>
 </template>
 
 <script>
 export default {
-    
 }
 </script>
 
 <style lang="sass" scoped>
 .nav
-    position: fixed
-    left: 0
-    top: 0
-    bottom: 0
-    background: #333
-    display: flex
-    flex-direction: column
-    align-items: center
-    width: 20vw
-    .nav-logo
-        margin: 100px auto
-    .nav-menu
-        color: white 
-    
+  position: fixed
+  display: flex
+  flex-direction: column
+  align-items: center
+  background: #333
+  top: 0
+  left: 0
+  bottom: 0
+  width: 20vw
+  .nav-logo
+    margin: 100px auto
+  .nav-menu
+    color: white
 .nav-menu-list
-    list-style: none
-    padding: 0
-    .nav-list-item
-        background: #222
-        padding: 10px 20px
-        text-align: center
-        margin: 10px
-        cursor: pointer
-        &:hover
-            width: 100%
+  list-style: none
+  padding: 0
+  .nav-list-item
+    background: #222
+    padding: 10px 20px
+    text-align: center
+    margin: 10px auto
+    cursor: pointer
+    &:hover
+      width: 100%
 </style>

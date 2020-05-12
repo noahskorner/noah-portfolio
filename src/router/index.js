@@ -4,7 +4,7 @@ import About from '../views/About.vue'
 
 Vue.use(VueRouter)
 
-  const routes = [
+const routes = [
   {
     path: '/',
     name: 'About',
