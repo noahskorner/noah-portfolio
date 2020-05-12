@@ -1,7 +1,7 @@
 <template>
     <section class="nav">
         <div class="nav-logo">
-            <img src="https://image.freepik.com/free-vector/abstract-logo-flame-shape_1043-44.jpg" alt="logo" height="200px">
+            <img src="https://image.freepik.com/free-vector/abstract-logo-flame-shape_1043-44.jpg" alt="logo" height="160px">
         </div>
         <div class="nav-menu">
             <ul class="nav-menu-list">
@@ -20,29 +20,12 @@ export default {
 
 <style lang="sass" scoped>
 .nav
-    position: fixed
-    left: 0
-    top: 0
-    bottom: 0
     background: #333
     display: flex
     flex-direction: column
+    justify-content: space-around
     align-items: center
-    width: 20vw
     .nav-logo
-        margin: 100px auto
-    .nav-menu
-        color: white 
-    
-.nav-menu-list
-    list-style: none
-    padding: 0
-    .nav-list-item
-        background: #222
-        padding: 10px 20px
-        text-align: center
-        margin: 10px
-        cursor: pointer
-        &:hover
-            width: 100%
+        margin: 20px auto
+    .nav
 </style>
