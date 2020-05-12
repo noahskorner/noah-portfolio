@@ -1,7 +1,7 @@
 <template>
   <div class="about-card">
     <div class="card-title">
-      <img src="https://www.w3schools.com/howto/img_avatar.png" alt="avatar" class="avatar">
+      <img src="https://github.com/noahskorner/PortfolioWebsite/blob/master/dist/img/portrait.PNG?raw=true" alt="avatar" class="avatar">
       <div class="title-text-content">
         <p>About me</p>
         <h2>Noah Korner</h2>
@@ -59,7 +59,7 @@ export default {
     background: #222
     border-radius: 10px
     .avatar
-      height: 50px
+      height: 75px
       border: 1px solid rgba(255, 255, 255, 0.4)
       border-radius: 50%
       margin: 0 30px
