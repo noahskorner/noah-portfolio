@@ -1,7 +1,7 @@
 <template>
   <div class="about-card">
     <div class="card-title">
-      <img src="https://github.com/noahskorner/PortfolioWebsite/blob/master/dist/img/portrait.PNG?raw=true" alt="avatar" class="avatar">
+      <img src="@/assets/portrait.jpeg" alt="avatar" class="avatar">
       <div class="title-text-content">
         <p>About me</p>
         <h2>Noah Korner</h2>
@@ -37,6 +37,7 @@
       </table>
        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius consequatur, libero, natus, autem hic saepe exercitationem expedita alias corporis quisquam reiciendis ab quaerat rerum itaque animi repudiandae dolor in fugit ratione inventore molestiae harum accusantium dignissimos. Id praesentium quisquam asperiores ullam quaerat totam, voluptates esse vero repellendus amet, officiis inventore.</p>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius consequatur, libero, natus, autem hic saepe exercitationem expedita alias corporis quisquam reiciendis ab quaerat rerum itaque animi repudiandae dolor in fugit ratione inventore molestiae harum accusantium dignissimos. Id praesentium quisquam asperiores ullam quaerat totam, voluptates esse vero repellendus amet, officiis inventore.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius consequatur, libero, natus, autem hic saepe exercitationem expedita alias corporis quisquam reiciendis ab quaerat rerum itaque animi repudiandae dolor in fugit ratione inventore molestiae harum accusantium dignissimos. Id praesentium quisquam asperiores ullam quaerat totam, voluptates esse vero repellendus amet, officiis inventore.</p>
     </div>
   </div>
 </template>
@@ -51,6 +52,7 @@ export default {
   min-height: calc(100vh - 150px)
   background: #333
   padding: 3em
+  border: 5px solid rgb(140,29,64)
   border-radius: 10px
   color: white
   .card-title

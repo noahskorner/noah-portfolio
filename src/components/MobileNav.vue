@@ -1,12 +1,16 @@
 <template>
   <section class="nav">
     <div class="nav-brand">
-      <img height="160px" src="https://image.freepik.com/free-vector/abstract-logo-flame-shape_1043-44.jpg" alt="logo">
+      <img height="160px" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Arizona_State_University_seal.svg/1200px-Arizona_State_University_seal.svg.png" alt="logo">
     </div>
     <div class="nav-menu">
       <ul class="nav-menu-list">
-        <li>About me</li>
-        <li>GitHub</li>
+        <li class="nav-list-item">About Me</li>
+        <li class="nav-list-item">Education</li>
+        <li class="nav-list-item">Skills</li>
+        <li class="nav-list-item">Experience</li>
+        <li class="nav-list-item">Hobbies</li>
+        <li class="nav-list-item">GitHub</li>
       </ul>
     </div>
   </section>
