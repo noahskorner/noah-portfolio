@@ -53,7 +53,7 @@ export default {
   background: #333
   padding: 3em
   border: 5px solid rgb(140,29,64)
-  border-radius: 10px
+  border-radius: 5px
   color: white
   .card-title
     display: flex

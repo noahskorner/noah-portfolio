@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import About from '../views/About.vue'
+import Skills from '../views/Skills.vue'
 
 Vue.use(VueRouter)
 
@@ -12,6 +13,11 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: About
+  },
+  {
+    path: '/',
+    name: 'Skills',
+    component: Skills
   }
 ]
 
