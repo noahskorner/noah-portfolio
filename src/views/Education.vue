@@ -3,7 +3,7 @@
     <div class="card-title">
       <img src="@/assets/portrait.jpeg" alt="avatar" class="avatar">
       <div class="title-text-content">
-        <p>Skills</p>
+        <p>Education</p>
         <h2>Noah Korner</h2>
       </div>
     </div>

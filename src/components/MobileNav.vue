@@ -5,11 +5,11 @@
     </div>
     <div class="nav-menu">
       <ul class="nav-menu-list">
-        <li class="nav-list-item">About Me</li>
-        <li class="nav-list-item">Education</li>
-        <li class="nav-list-item">Skills</li>
-        <li class="nav-list-item">Experience</li>
-        <li class="nav-list-item">Hobbies</li>
+        <li class="nav-list-item"><router-link to="/">About</router-link></li>
+        <li class="nav-list-item"><router-link to="Education">Education</router-link></li>
+        <li class="nav-list-item"><router-link to="Skills">Skills</router-link></li>
+        <li class="nav-list-item"><router-link to="Experience">Experience</router-link></li>
+        <li class="nav-list-item"><router-link to="Hobbies">Hobbies</router-link></li>
         <li class="nav-list-item">GitHub</li>
       </ul>
     </div>
@@ -45,6 +45,9 @@ export default {
     padding: 10px 0
     cursor: pointer
     transition: background 300ms ease-in-out
+    a 
+      color: white
+      text-decoration: none
     &:first-of-type
       border-bottom: 5px solid #222
     &:hover

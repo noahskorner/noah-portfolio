@@ -5,12 +5,12 @@
     </div>
     <div class="nav-menu">
       <ul class="nav-menu-list">
-        <li class="nav-list-item">About Me</li>
-        <li class="nav-list-item">Education</li>
-        <li class="nav-list-item">Technical Skills</li>
-        <li class="nav-list-item">Experience</li>
-        <li class="nav-list-item">Hobbies</li>
-        <li class="nav-list-item">GitHub</li>
+        <li class="nav-list-item"><router-link to="/">About</router-link></li>
+        <li class="nav-list-item"><router-link to="Education">Education</router-link></li>
+        <li class="nav-list-item"><router-link to="Skills">Skills</router-link></li>
+        <li class="nav-list-item"><router-link to="Experience">Experience</router-link></li>
+        <li class="nav-list-item"><router-link to="Hobbies">Hobbies</router-link></li>
+        <li class="nav-list-item"><a href="https://github.com/noahskorner" target="_blank">GitHub</a></li>
       </ul>
     </div>
   </section>
@@ -47,6 +47,9 @@ export default {
     text-align: center
     margin: 10px auto
     cursor: pointer
+    a 
+      color: white
+      text-decoration: none
     &:hover
       width: 100%
 </style>
