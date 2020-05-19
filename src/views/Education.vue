@@ -8,6 +8,12 @@
       </div>
     </div>
     <div class="card-content">
+      <p>
+        <b>COMPUTER SCIENCE • ARIZONA STATE UNIVERSITY • DEC 2020 MAJOR GPA: 3.74</b><br>
+        Bachelor of Science in Computer Science at the Ira A. Fulton School of Engineering<br><br>
+        <b>Related Coursework:</b> Data Structures and Algorithms, Mobile Application Development, Database Management, Programming Languages, 
+        Software QA and Testing, Operating Systems, Human Computer Interactions, Probability and Statistics
+      </p>
     </div>
   </div>
 </template>
@@ -20,10 +26,8 @@ export default {
 <style lang="sass" scoped>
 .about-card
   min-height: calc(100vh - 150px)
-  background: #333
+  background: rgb(140,29,64)
   padding: 3em
-  border: 5px solid rgb(140,29,64)
-  border-radius: 5px
   color: white
   .card-title
     display: flex

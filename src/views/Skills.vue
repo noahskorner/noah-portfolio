@@ -3,11 +3,34 @@
     <div class="card-title">
       <img src="@/assets/portrait.jpeg" alt="avatar" class="avatar">
       <div class="title-text-content">
-        <p>Skills</p>
+        <p>Technical Skills</p>
         <h2>Noah Korner</h2>
       </div>
     </div>
     <div class="card-content">
+      <p>
+        <ul>
+          <li>C/C++</li>
+          <li>Java</li>
+          <li>HTML/CSS</li>
+          <li>JavaScript</li>
+          <li>Vue.js</li>
+          <li>Swift</li>
+          <li>Linux</li>
+          <li>SQL</li>
+          <li>Source Control</li>
+          <li>Microsoft Office Suite</li>
+          <li>Axure Rapid Prototyping</li>
+          <li>Virtual Machines</li>
+          <li>GameMaker Studio 2</li>
+          <li>Unit Testing</li>
+          <li>Assembly Language</li>
+          <li>Visual Studio</li>
+          <li>Laser Printing Technologies</li>
+          <li>Git/GitHub</li>
+          <li>MATLAB</li>
+        </ul>
+      </p>
     </div>
   </div>
 </template>
@@ -20,10 +43,8 @@ export default {
 <style lang="sass" scoped>
 .about-card
   min-height: calc(100vh - 150px)
-  background: #333
+  background: rgb(140,29,64)
   padding: 3em
-  border: 5px solid rgb(140,29,64)
-  border-radius: 5px
   color: white
   .card-title
     display: flex

@@ -8,6 +8,11 @@
       </div>
     </div>
     <div class="card-content">
+      <ul>
+        <li>Coding for Kids</li>
+        <li>PC Hardware Enthusiast</li>
+        <li>NBA and College Football</li>
+      </ul>
     </div>
   </div>
 </template>
@@ -20,10 +25,8 @@ export default {
 <style lang="sass" scoped>
 .about-card
   min-height: calc(100vh - 150px)
-  background: #333
+  background: rgb(140,29,64)
   padding: 3em
-  border: 5px solid rgb(140,29,64)
-  border-radius: 5px
   color: white
   .card-title
     display: flex
